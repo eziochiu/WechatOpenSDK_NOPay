@@ -18,12 +18,12 @@ Pod::Spec.new do |s|
 
   #  When using multiple platforms
   
-  s.source       = { :http => "https://res.wx.qq.com/op_res/_mNIkGHRTtYRjfCdkIg65-VN6jScwOx3ceUFt_tCMVF4KzG5WsAt7Y6UYllBDZd4"}
+  s.source       = { :http => "https://res.wx.qq.com/op_res/_mNIkGHRTtYRjfCdkIg65-VN6jScwOx3ceUFt_tCMVF4KzG5WsAt7Y6UYllBDZd4", :type => "zip"}
 
 
   s.requires_arc = false
-  # s.source_files = "WechatOpenSDK_NoPay/*.{h}"
-  # s.vendored_libraries = "WechatOpenSDK_NoPay/*.a"
+  s.source_files = "OpenSDK1.8.7.1_NoPay/*.{h}"
+  s.vendored_libraries = "OpenSDK1.8.7.1_NoPay/*.a"
   s.frameworks = "Security", "UIKit", "CoreGraphics", "WebKit"
   s.libraries = "z", "sqlite3.0", "c++"
 end
