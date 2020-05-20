@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "WechatOpenSDK_NOPay"
+  s.name         = "WechatOpenSDK_UnPay"
   s.version      = "1.8.7.1"
   s.summary      = "Includes the following WeChat features: Share to Moments, Log In via WeChat, Save to Favorites, WeChat Pay, etc."
 
