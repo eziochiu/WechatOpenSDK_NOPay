@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
 
 
   s.requires_arc = false
-  s.source_files = "WechatOpenSDK_NoPay/*.{h}"
-  s.vendored_libraries = "WechatOpenSDK_NoPay/*.a"
+  # s.source_files = "WechatOpenSDK_NoPay/*.{h}"
+  # s.vendored_libraries = "WechatOpenSDK_NoPay/*.a"
   s.frameworks = "Security", "UIKit", "CoreGraphics", "WebKit"
   s.libraries = "z", "sqlite3.0", "c++"
 end
